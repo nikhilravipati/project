@@ -1,0 +1,96 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+.s1 {
+  background-image: url("./img/image.jpg");
+  background-size: cover;
+    
+    
+}
+.section h1 {
+  font-size: 64px;
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%, -20%);
+  background: linear-gradient(to left, #5c3232, #191e1e);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.s2 {
+  background: linear-gradient(to left top, rgb(189, 193, 199), white);    
+}
+
+.s3 {
+  background: linear-gradient(to left top, rgb(189, 193, 199), white);
+}
+
+.s2 h1 {
+  font-size: 64px;
+    top: 20%;
+    left: 30%;
+  background: linear-gradient(to left, #5c3232, #191e1e);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.container {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transform: translate(100%, -80%)
+}
+.card {
+  transform-style: preserve-3d;
+  min-height: 20vh;  
+
+  width: 20rem;
+  border-radius: 30px;
+  padding: 0rem 5rem;
+  box-shadow: 0 20px 20px rgba(0, 0, 0, 0.2), 0px 0px 50px rgba(0, 0, 0, 0.2);
+}
+
+.house {
+  min-height: 35vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+    
+    
+}
+.house img {
+  width: 20rem;
+  z-index: 2;
+  transition: all 0.5s ease-out;
+}
+.circle {
+  width: 18rem;
+  height: 18rem;
+  background: linear-gradient(
+    to right,
+    rgba(245, 70, 66, 0.75),
+    rgba(8, 83, 156, 0.75)
+  );
+  position: absolute;
+  border-radius: 50%;
+  z-index: 1;
+}
+
+
+.description {
+  margin-top: 10%;
+  width: 40%;
+  margin-left: 13%;
+  font-size: 20px;
+}
+.description p {
+  margin: 40px 0px;
+}
